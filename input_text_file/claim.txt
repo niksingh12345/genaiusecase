@@ -1,1 +1,7 @@
 
+claimnumber int not null ,
+sourcesystemcode varchar(10)  not null,
+Benefitnumber varchar(10) not null,
+EventDate date not null,
+EventDateOriginal DateTime not null,
+EventType varchar(20) not null

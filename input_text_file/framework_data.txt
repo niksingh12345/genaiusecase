@@ -1,0 +1,11 @@
+vbn_hash_key varbinary(32) NOT NULL,
+vbn_hash_data varbinary(32) NOT NULL,
+dt2_created DATETIME2(7) NULL,
+in8_id_job_step_run BIGINT NOT NULL,
+dt2_last_load_date DATETIME2(7) NULL,
+bit_flg_current BIT NOT NULL DEFAULT 1,
+bit_flg_augment BIT NOT NULL DEFAULT 0,
+bit_flg_deleted BIT NOT NULL DEFAULT 0,
+dt2_deleted DATETIME2(7) NULL,
+dt2_start DATETIME2(7) NOT NULL DEFAULT '1900-01-01',
+dt2_end DATETIME2(7) NOT NULL DEFAULT '1999-12-31'
